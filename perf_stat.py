@@ -1,6 +1,5 @@
 import asyncio
-import pandas as pd
-from komlogd.api import logging, session, crypto
+from komlogd.api import logging
 from komlogd.api.transfer_methods import transfermethod
 from komlogd.api.protocol.model.types import Datapoint, Datasource
 from komlogd.api.protocol.model.schedules import CronSchedule
